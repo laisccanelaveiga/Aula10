@@ -19,6 +19,9 @@ while True:
     except KeyboardInterrupt:
             print("\nPrograma encerrado")    
     
+    except Exception as e:
+        print(f'Erro Inesperado: {e}')
+    
     else:      
         print(f"\nSeu imc é {indice:.2f}")
         
